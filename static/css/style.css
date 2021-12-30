@@ -1,0 +1,201 @@
+/* Poppins , Montserrat , Varela Round */
+
+
+/*  Default Stying  */
+html{scroll-behavior:smooth;}
+body{margin:0; padding:0; font-family:'Varela Round'; overflow-x:hidden;}
+h1, h2, h3, h4, h5, h6, p, b, i, u, ul, ol, li, a{margin:0; padding:0; list-style:none; text-decoration:none; outline:none;}
+a:hover{text-decoration:none;}
+/*  Default Styling Close  */
+
+/*  Header  */
+.topBar{background:#223c8e; width:100%; padding:10px 0;}
+.topBar .contact-info span{color:#fff; font-size:15px; font-weight:500; margin:0; padding:0;}
+.topBar .contact-info span:after{content:''; display:inline-block; height:13px; width:2px; background:#fff5; margin:0 15px;}
+.topBar .contact-info span:last-child:after{display:none;}
+.topBar .contact-info span i{margin-right:10px;}
+.topBar .contact-info span a{color:#efefef;}
+.topBar .social{text-align:right;}
+.topBar .social span{margin:0 10px;}
+.topBar .social span a{color:#efefef;}
+
+header{width:100%; background:#fff; position:sticky; top:0; padding:15px 0; box-shadow:0 5px 5px #0028ff1f; z-index:9;}
+header nav .logo{font-size:25px; font-weight:700; text-transform:capitalize;}
+header nav .logo span{font-weight:500; font-style:italic; font-size:20px;}
+header nav .logo a{color:#223c8e;}
+header nav ul li{display:inline-block; margin:0 15px; font-size:15px;}
+header nav ul li a{color:#223c8e; transition:.5s;}
+header nav ul li a:hover:{color:#808080;}
+header nav button{color:#223c8e;}
+/*  Header Close  */
+
+/*  Footer  */
+footer{width:100%; background:#020c24; padding:50px 0;}
+footer .footerLogo{margin-bottom:25px;}
+footer .footerLogo h1{font-size:30px; font-weight:700; text-transform:capitalize;}
+footer .footerLogo h1 span{font-size:25px; font-weight:500; font-style:italic;}
+footer .footerLogo h1 a{color:#efefef;}
+footer .footerAbout p{color:#cecece; font-size:15px; font-weight:500;}
+footer h4{color:#efefef; font-size:20px; margin-top:10px; text-transform:capitalize;}
+footer ul{margin-top:25px;}
+footer ul li{display:block; margin-bottom:7px; font-size:15px;}
+footer ul li a{color:#cecece; transition:.5s;}
+footer ul li a:hover{color:#fff;}
+footer .footerContact{margin-top:25px;}
+footer .footerContact p{color:#cecece; font-size:15px; font-weight:500; display:inline-flex; margin-bottom:15px;}
+footer .footerContact p i{width:25px; line-height:20px; margin-right:5px;}
+footer .footerContact p a{color:#cecece; transition:.5s;}
+footer .footerContact p a:hover{color:#fff;}
+
+.footerBottom{width:100%; background:#010511; border-top:1px solid #fff2; padding:20px 0;}
+.footerBottom p{color:#cecece; font-size:15px; font-weight:500;}
+.footerBottom p a{color:#cecece; transition:.5s;}
+.footerBottom p a:hover{color:#fff;}
+.footerBottom .social{text-align:right;}
+.footerBottom ul li{display:inline-block; margin-left:15px;}
+.footerBottom ul li a{color:#cecece; transition:.5s;}
+.footerBottom ul li a:hover{color:#fff;}
+/*  Footer Close  */
+
+/*  Banner  */
+.banner{width:100%; padding:70px 0;}
+.banner .bannerImage{width:100%;}
+.banner .bannerImage img{width:100%;}
+.banner .bannerText{margin-top:50px;}
+.banner .bannerText h6{font-size:25px; font-weight:500; color:#223c8e; text-transform:capitalize; text-shadow:0 3px 3px #0003;}
+.banner .bannerText h4{font-size:45px; font-weight:700; color:#484848; margin:15px 0; text-transform:capitalize; text-shadow:0 3px 3px #0003;}
+.banner .bannerText h4 span{color:#223c8e;}
+.banner .bannerText p{font-size:15px; font-weight:500; color:#484848;}
+.banner .bannerText a{padding:13px 40px; background:#223c8e; color:#fff; border-radius:50px; display:inline-block; margin-top:20px; font-size:15px;}
+/*  Banner Close  */
+
+/*  SEO Steps  */
+.seoSteps{width:100%; background:#f7fdf9; padding:70px 0;}
+.seoSteps .box{width:100%; margin:15px 0; text-align:center;}
+.seoSteps .box .icon{width:80px; height:80px; border:3px solid #597fa86b; color:#223c8e; border-radius:50%; margin:auto; text-align:center; line-height:80px; background:#f7fdf9; box-shadow:0 0px 0px 5px #223c8e1a;}
+.seoSteps .box .icon i:before{font-size:40px;}
+.seoSteps .box .text{margin-top:20px;}
+.seoSteps .box .text h5{font-size:20px; font-weight:700; color:#484848; text-transform:capitalize;}
+.seoSteps .box .text p{color:#484848; font-size:15px; margin-top:10px;}
+/*  SEO Steps Close  */
+
+/*  About Section  */
+.aboutSection{padding:100px 0; background:#fff;}
+.aboutSection .aboutImage{width:100%;}
+.aboutSection .aboutImage img{width:100%; margin-top:30px;}
+.aboutSection .aboutText h5{color:#808080; font-size:20px; font-weight:500; text-transform:capitalize;}
+.aboutSection .aboutText h3{font-size:35px; font-weight:700; color:#223c8e; margin:10px 0;}
+.aboutSection .aboutText p{font-size:15px; font-weight:500; margin-bottom:30px;}
+.aboutSection .aboutText .box{margin:10px 0; display:inline-flex;}
+.aboutSection .aboutText .box .icon{width:110px; height:80px; border-radius:5px;  border:3px solid #597fa86b; background:#f7fdf9; box-shadow:0 0px 0px 5px #223c8e1a; color:#223c8e; margin-right:15px; text-align:center;}
+.aboutSection .aboutText .box .icon i:before{font-size:40px; line-height:80px;}
+.aboutSection .aboutText .box h6{font-size:20px; color:#484848; font-weight:700; text-transform:capitalize;}
+.aboutSection .aboutText .box p{font-size:15px; font-weight:500; margin:3px 0 0;}
+/*  About Section Close  */
+
+/*  Services Section  */
+.serviceSection{padding:100px 0; background:#f7fdf9;}
+.serviceSection h5{color:#808080; font-size:20px; font-weight:500; text-transform:capitalize; text-align:center;}
+.serviceSection h3{font-size:35px; font-weight:700; color:#223c8e; margin:10px 0; text-align:center;}
+.serviceSection .row:last-child{margin-top:50px;}
+.serviceBox{margin:15px 0; background:#fff; border-radius:5px; padding:30px; box-shadow:0 1px 10px 1px #0003; position:relative; overflow:hidden;}
+.serviceBox:hover .iconBox{box-shadow:0 0px 0px 365px #fff0;}
+.serviceBox .iconBox{width:110px; height:110px; color:#fff; border-radius:50%; margin:auto; text-align:center; line-height:110px; background:#223c8e; box-shadow:0 0px 0px 5px #223c8e1a; position:absolute; right:-30px; top:-30px; transition:.5s;}
+.serviceBox .iconBox i{display:block;}
+.serviceBox .iconBox i:before{position:relative; top:8px; left:-5px; font-size:35px;}
+.serviceBox .textBox h4{font-size:20px; font-weight:500; text-transform:capitalize;}
+.serviceBox .textBox h4 a{color:#484848;}
+.serviceBox .textBox h4:after{content:''; display:block; width:30px; height:2px; border-radius:5px; margin:15px 0; background:#223c8e;}
+.serviceBox .textBox p{font-size:15px; font-weight:500; margin:0 0 15px;}
+.serviceBox .textBox .link{color:#223c8e; font-size:15px; font-weight:500;}
+/*  Services Section Close  */
+
+/*  Blog Section  */
+.blogSection{padding:100px 0; background:#fff;}
+.blogSection h5{color:#808080; font-size:20px; font-weight:500; text-transform:capitalize; text-align:center;}
+.blogSection h3{font-size:35px; font-weight:700; color:#223c8e; margin:10px 0; text-align:center;}
+.blogSection .row:last-child{margin-top:50px;}
+.blogSection .box{width:100%; border-radius:5px; border-bottom:3px solid #223c8e; background:#f7fdf9; overflow:hidden; margin-top:15px; margin-bottom:15px; transition:.5s;}
+.blogSection .box .image{position:relative; width:100%; border-radius:5px; overflow:hidden;}
+.blogSection .box .image img{width:100%; transition:.5s;}
+.blogSection .box .image b{position:absolute; bottom:15px; left:10px; z-index:2; font-size:15px; font-weight:500; font-family:'Poppins';}
+.blogSection .box .image b a{color:#fff; background:#223c8e; padding:7px 15px; border-radius:20px; box-shadow:0 2px 5px 3px #0003;}
+.blogSection .box .text{padding:25px 15px;}
+.blogSection .box .text h4{font-size:20px; font-weight:700;}
+.blogSection .box .text h4 a{color:#223c8e;}
+.blogSection .box .text p{color:#484848; font-size:15px; font-weight:500; margin-top:20px;}
+.blogSection .box:hover > .image img{transform:scale(1.1);}
+.blogSection .box:hover{box-shadow:0 1px 10px 1px #0003;}
+
+.newsletter{background:linear-gradient(#81549e, #223c8e); color:#fff; border-radius:5px; height:93%; margin-top:15px; margin-bottom:15px; padding:20px; box-shadow:0 1px 10px 1px #0003;}
+.newsletter h4{font-size:30px; font-weight:700; margin-top:15px;}
+.newsletter h4:after{content:''; display:block; width:100px; height:3px; background:#fff3; margin:15px 0 25px;}
+.newsletter p{margin:10px 0; color:#f7fdf9d6;}
+.newsletter form{margin-top:25px;}
+.newsletter form input{width:100%; padding:10px 15px; border:none !important; outline:none !important; border-radius:5px !important; background:#f7fdf9 !important; font-size:15px !important;}
+.newsletter form button{background:transparent !important; color:#fff !important; border-radius:5px !important; padding:10px 20px !important; font-size:15px; outline:none !important; border:1px solid #fff !important; margin-top:15px;}
+/*  Blog Section Close  */
+
+/*  Inner Banner  */
+.innerBanner{width:100%; background:linear-gradient(to right, #81549e, #223c8e); padding:100px 0;}
+.innerBanner h2{color:#fff; font-size:35px; font-weight:700;}
+.innerBanner .pageNav{margin-top:15px;}
+.innerBanner .pageNav span{color:#fff; font-size:15px;}
+.innerBanner .pageNav span:after{content:'/'; display:inline-block; margin:0 15px;}
+.innerBanner .pageNav span:last-child:after{display:none;}
+.innerBanner .pageNav span a{color:#d0d0d0; transition:.5s;}
+.innerBanner .pageNav span a:hover{color:#fff;}
+/*  Inner Banner Close  */
+
+/*  Contact Page  */
+.contact{width:100%; padding:100px 0; background:#fff;}
+.contact h5{color:#808080; font-size:20px; font-weight:500; text-transform:capitalize; text-align:center;}
+.contact h3{font-size:35px; font-weight:700; color:#223c8e; margin:10px 0; text-align:center;}
+.contact form{margin-top:50px;}
+.contact form input{width:100%; border:1px solid #e7e7e7; background:none; outline:none; margin-bottom:15px; padding:15px 20px; transition:.5s; color:#223c8e; font-size:15px font-weight:500;}
+.contact form input:focus{border:1px solid #223c8e;}
+.contact form textarea{width:100%; border:1px solid #e7e7e7; background:none; outline:none; margin-bottom:15px; padding:15px 20px; transition:.5s; color:#223c8e; font-size:15px font-weight:500;}
+.contact form textarea:focus{border:1px solid #223c8e;}
+.contact form button{margin:auto; background:#223c8e; color:#fff; border:none; outline:none; padding:15px 50px;}
+/*  Contact Page Close  */
+
+/*  Sidebar Section  */
+.sidebar{width:100%;}
+.sidebar .box{width:100%; background:#fff; border-top:2px solid #223c8e; border-radius:5px; box-shadow:0 5px 5px 0 #0002;}
+.sidebar .box h4{font-size:20px; font-weight:500; color:#fbfdf9; text-transform:uppercase; padding:15px; background:#223c8e;}
+.sidebar .box ul{padding:20px 0 20px;}
+.sidebar .box ul li{display:block; font-size:15px; font-weight:500; margin:10px 0; padding:0 15px;}
+.sidebar .box ul li a{color:#223c8e;}
+/*  Sidebar Section ~ Close  */
+
+/*  Single Service  */
+.singleService{padding:100px 0; background:#f7fdf9;}
+.singleService .singleServiceBox{background:#fff; padding:20px; box-shadow:0 5px 5px 0 #0002; border-radius:5px;}
+.singleService .singleServiceBox h1{font-size:25px; font-weight:700; color:#223c8e; margin-bottom:20px;}
+.singleService .singleServiceBox p{margin-bottom:15px;}
+/*  Single Service ~ Close  */
+
+
+
+/*  Responsive  */
+@media screen and (max-width: 1200px){}
+@media screen and (max-width: 992px){}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 767px){
+	.topBar .contact{margin-bottom:10px;}
+	.topBar .contact span{text-align:center; width:100%; display:block;}
+	.topBar .social{text-align:center; width:100%; border-top:1px solid #fff5; padding-top:10px;}
+	header nav ul{margin-top:15px; border-top:1px solid #efefef;}
+	header nav ul li{display:block; margin:10px 0;border-bottom:1px solid #efefef; padding-bottom:10px;}
+	footer h4{margin-top:40px;}
+	.footerBottom p{text-align:center;}
+	.footerBottom .social{text-align:center; margin-top:15px;}
+	.footerBottom ul li{margin:0 7px;}
+	.banner .bannerText{margin-top:70px;}
+	.banner .bannerText h6{font-size:20px;}
+	.banner .bannerText h4{font-size:35px;}
+	.banner .bannerText a{padding:10px 30px;}
+	.aboutSection .aboutText{margin-top:50px;}
+	.aboutSection .aboutText h3{display:none;}
+	.aboutSection .aboutText .box .icon{width:150px; height:80px;}
+}
